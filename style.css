@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.bg{
+    height: 101vh;
+    width: 100%;
+    /* border: 3px solid black; */
+    transform: skewY(-5deg);
+    position: absolute;
+    top: -100px;
+}
+.bg video{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+header{
+    width: 100%;
+    position: absolute;
+}
+header nav{
+    height: 75px;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+header nav p{
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: white;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+header p{
+    margin-top: 200px;
+    color: white;
+    font-size: 75px;
+    font-weight: 100;
+}
+header h4{
+    margin-top: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 100;
+}
+header button{
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    border: 3px solid white;
+    background-color: transparent;
+    color: white;
+    margin-top: 50px;
+}
+header .circle{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #007BFF;
+    margin-top: 195px;
+    margin-left: 745px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.first{
+    height: 750px;
+    width: 100%;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 750px;
+}
+.first .img{
+    height: 475px;
+    width: 475px;
+    float: left;
+    border-radius: 10px;
+    margin-top: 200px;
+    margin-left: 250px;
+    margin-right: 100px;
+    /* border: 1px solid black; */
+    background: url(https://preview.colorlib.com/theme/scenic/images/sq_img_6.jpg);
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.second{
+    height: 700px;
+    width: 100%;
+    /* border: 1px solid black; */
+    position: absolute;
+    top: 180vh;
+}
+.second img{
+    height: 100%;
+    margin-right: 30px;
+    float: left;
+}
+.second h3{
+    margin-top: 30px;
+    font-weight: 500;
+}
+.second p{
+    color: gray;
+    font-size: 13px;
+    margin-top: 25px;
+}
+.second .one{
+    height: 175px;
+    width: 500px;
+    float: left;
+    margin-left: 250px;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.second .two{
+    height: 175px;
+    width: 500px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.second .three{
+    height: 175px;
+    width: 500px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 250px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.second .four{
+    height: 175px;
+    width: 500px;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.bg2{
+    height: 150px;
+    width: 100%;
+    border: 3px solid black;
+    transform: skewY(-5deg);
+    position: absolute;
+    background-color: #001F42;
+
+    top: 250vh;
+}
+footer{
+    height: 500px;
+    width: 100%;
+    background-color: #001F42;
+    position: absolute;
+    top: 259vh;
+}
+footer .circle{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #007BFF;
+    margin-top: -100px;
+    margin-left: 745px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+}
+footer h4{
+    color: #007BFF;
+}
